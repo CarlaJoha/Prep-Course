@@ -77,10 +77,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-    if ("str1".lenght === "str1".length) {
-      return true;
-    }
- return false;
+  
 } 
 
 
@@ -181,12 +178,12 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-    if (numero > 0) { 
-    return "Es Positivo" 
-    } else if (numero < 0) {
+  if (numero < 0) {
     return "Es Negativo";
+    } else if (numero > 0) { 
+    return "Es Positivo" 
     } 
-    return "false";
+    return false;
 }
   
 
@@ -194,14 +191,14 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return "str" + "!";
+  return str + "!";
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-   return "nombre apellido";
+   return nombre + " " + apellido;
     
 }
 
@@ -209,8 +206,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  nombre = "Jose"
-    var saludo = "Hola " + nombre + "!";
+  var saludo = "Hola " + nombre + "!";
     return saludo;
 }
 
@@ -244,7 +240,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
  var conversion = euro * (1.20);
- return conversion + "$";
+ return conversion;
 }
 
 
@@ -254,14 +250,15 @@ function esVocal(letra) {
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
- const vocal = "a" == "e" == "i" == "o" == "u";
+  const vocal = [a, e, i, o, u];
   if (letra == vocal) {
-  return "es vocal";
-  } else
-  if (letra.lenght > 1){
-  
-return "Dato incorrecto"}
+    return "Es vocal";
+  } else if (letra > (vocal * 1)) {
+    return "Dato Incorrecto"; 
+  }
+return "Dato Incorrecto"
 }
+
   
 
 // No modificar nada debajo de esta línea
