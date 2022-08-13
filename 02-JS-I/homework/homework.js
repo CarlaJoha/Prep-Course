@@ -78,12 +78,13 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var str = [str1, str2];
-  if (str.length == str.length);{
+  if (str.length == str.length) {
   return true;
   } 
 return false;
 }
-
+  
+	
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -258,9 +259,9 @@ function esVocal(letra) {
   if (typeof letra == vocal ) {
     return "Es vocal";
   } else if (typeof letra + letra) {
-    return "Dato Incorrecto"; 
+    return "Dato incorrecto"; 
   }
-return "Dato Incorrecto"
+return "Dato incorrecto"
 }
 
   
