@@ -1,7 +1,5 @@
 // No cambies los nombres de las funciones.
 
-import  {Alert} from "bootstrap";
-
 function obtenerMayor(x, y) {
   // "x" e "y" son números enteros (int).
   // Devuelve el número más grande
@@ -118,7 +116,6 @@ function esEntero(numero) {
     return "true";
   }
 return "false"
-}
 
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
@@ -174,7 +171,7 @@ function doWhile(numero) {
 // No modificar nada debajo de esta línea
 // --------------------------------
 
-export default {
+module.exports = {
   obtenerMayor,
   mayoriaDeEdad,
   conection,
