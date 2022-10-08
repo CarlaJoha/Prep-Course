@@ -95,6 +95,8 @@ function promedioResultadosTest(resultadosTest) {
   }
   return sumaTest / resultadosTest.length;
 }
+// Otra forma, con un Callback a la función de arriba:
+// return agregarNumeros(resultadosTest) / resultadosTest.length;
 
 function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
@@ -190,7 +192,7 @@ function todosIguales(arreglo) {
   //recorrer el array buscando los meses de     
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.         
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"       
-  // Tu código:"]     
+  // Tu código:     
   let array2 = [];  
   for (i = 0; i < array.length; i++){     
    if (array[i] === "Marzo") {       
