@@ -1,0 +1,47 @@
+body {
+    background-image: url(sushi.jpg)
+     }
+.image {
+    width: 400px;
+   }
+   #thirdDiv {
+    height: 600px;
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border:  0.5rem solid goldenrod;
+    background-color:black;
+    padding:50px; 
+    color: white;
+    font-family:Verdana, Tahoma, sans-serif;
+   }
+
+   #spanId {
+    font-size: 18px;
+    font-family:Verdana, Tahoma, sans-serif;
+    margin: 50px;
+   }
+    .divClass{
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    justify-content: center;
+    font-family:Verdana, Tahoma, sans-serif;
+    color:black;
+    }
+    #background {
+        background-color: rgba(196, 185, 185, 0.5);
+    }
+   .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: black;
+    opacity: .6;
+    width: 100%;
+    color:whitesmoke;
+    font-family:Verdana, Tahoma, sans-serif;
+    text-align:center;
+   }
+  

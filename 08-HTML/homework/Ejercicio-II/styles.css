@@ -1,0 +1,84 @@
+body {
+    background-image: url(background3.jpg);
+    font-family: Tahoma, sans-serif;
+}
+
+.contenedor1{
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 300px 345px 345px;
+    grid-template-rows: repeat(3, 1fr);
+    text-align: justify;
+}
+
+.contenedor2{
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 505px);
+    grid-template-rows: repeat(2, 1fr);
+    text-align: justify;
+}
+
+.lista {
+    text-align: justify;
+}
+  
+  
+.item1{
+    grid-column-start: 1 ;
+    grid-column-end: 1; 
+    grid-row-start: 1;
+    grid-row-end: 4;
+    
+}
+.foto {
+    width: 250px
+}
+  
+.item2{
+    text-align: center;
+    grid-column-start:2 ;
+    grid-column-end: -1; 
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.item3{
+    grid-column-start: 2 ;
+    grid-column-end: -1; 
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.icon{
+    width: 30px;
+}
+
+.contenedor2.item4{
+    display: flex;
+    align-items:justify;
+    padding-left: 20px;
+}
+
+.footer{
+    grid-column-start:1 ;
+    grid-column-end:3 ; 
+    text-align: justify;
+}
+  
+.contenedor1 > div{
+    background: rgba(208, 184, 235, 0.445);
+    padding: 20px;
+    border-radius: 4px;
+}
+.contenedor2 > div, footer{
+    background: rgba(189, 168, 238, 0.61);
+    padding: 20px;
+    border-radius: 4px;
+}
+  
